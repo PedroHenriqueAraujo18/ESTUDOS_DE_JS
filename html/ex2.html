@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ex1.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+            <h1>Primeiro Site com JS</h1>   
+        </header>
+        <main>
+            <p>Olá, Mundo</p>
+        </main>
+</body>
+    <script>
+     //parse pra int
+        var n1 = Number.parseInt( window.prompt("N1:"))
+        var n2 = Number.parseInt(window.prompt("N2:"))
+        var n3 = Number.parseInt(window.prompt("N3:"))
+        var s = n1+n2+n3;
+        window.alert('soma:' +   s)
+
+        //parse pra float
+        var b1 = Number.parseFloat( window.prompt("N1:"))
+        var b2 = Number.parseFloat(window.prompt("N2:"))
+        var b3 = Number.parseFloat(window.prompt("N3:"))
+        var t = b1+b2+b3
+        window.alert('soma_2:'+ t)
+
+        //js escolhe o parse
+        var a1 = Number( window.prompt("N1:"))
+        var a2 = Number(window.prompt("N2:"))
+        var a3 = Number(window.prompt("N3:"))
+        var u = a1+a2+a3
+        window.alert("soma_3:"+u)
+    </script>
+
+</html>
