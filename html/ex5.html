@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ex4.css">
+    <title>site com DOM</title>
+</head>
+<body>
+        <main id="1" >
+            <p>interaja</p>
+        </main>
+</body>
+    <script>
+        var a =window.document.getElementById('1');
+        a.addEventListener("click",clicar)
+        a.addEventListener("mouseenter",entrar)
+        a.addEventListener("mouseleave",sair)
+      function clicar(){
+        a.innerText='Oi'
+        a.style.background = 'red'
+      } 
+      function entrar(){
+        a.innerText = 'Entro'
+        a.style.background = 'blue'
+      }
+      function sair(){
+        a.innerText = 'Tchau'
+        a.style.background = 'green'
+      }
+    </script>
+
+</html>
