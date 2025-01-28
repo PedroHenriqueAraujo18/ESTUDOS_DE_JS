@@ -23,7 +23,7 @@ section > article {
     background-color: #fff;
     border-radius: 14px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra mais suave */
-    width: 500px;
+    width: 800px;
     margin: 20px auto; /* Centraliza os artigos na seção */
     padding: 20px; /* Adiciona preenchimento interno para melhor espaçamento */
 }
