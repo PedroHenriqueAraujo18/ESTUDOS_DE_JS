@@ -8,7 +8,7 @@ function verificador_de_idade(){
     if (inputAno == 0 || inputAno > atual) { // Adicionada verificação para 'sexo'
         res.innerHTML = '[ERRO] Verifique os dados e tente novamente!';
     } else {
-        var genero = (sexo === 'masculino') ? 'Homem' : 'Mulher'; // Corrigido aqui
+        var genero = (sexo == 'masculino') ? 'Homem' : 'Mulher'; // Corrigido aqui
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
         
     }
